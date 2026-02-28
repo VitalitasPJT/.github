@@ -142,7 +142,7 @@ A equipe do projeto **Vitalitas** possui papéis bem definidos para garantir a c
     * 📧 [iuri.gp@sempreceub.com](mailto:iuri.gp@sempreceub.com)
     * [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](LINK_DO_LINKEDIN) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](LINK_DO_GITHUB)
 
-### ⚙️ Backend & Dados
+### Backend & Dados
 * **Hugo Ferreira Matos** - *DBA / QA (Quality Assurance)*
     * **Atribuições:** Modelagem de dados (DER-MER), criação de scripts SQL e execução de testes de qualidade para estabilidade do sistema.
     * 📧 [hugo.fmatos@sempreceub.com](mailto:hugo.fmatos@sempreceub.com)
