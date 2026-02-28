@@ -6,8 +6,6 @@
 ![Contexto](https://img.shields.io/badge/Contexto-Acadêmico_UniCEUB-blue?style=for-the-badge)
 ![Licença](https://img.shields.io/badge/Licença-Direitos_Reservados-red?style=for-the-badge)
 
----
-
 <div align="center">
 
 ![.NET](https://img.shields.io/badge/.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
