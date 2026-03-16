@@ -1,6 +1,6 @@
 # Vitalitas
 
-> **Solução Web Integrada para Modernização e Gestão de Academias.**
+> **Plataforma Web e Mobile Integrada para Revolucionar a Gestão e a Experiência em Academias.**
 
 ![Status](https://img.shields.io/badge/Status-Em_Desenvolvimento-yellow?style=for-the-badge)
 ![Contexto](https://img.shields.io/badge/Contexto-Acadêmico_UniCEUB-blue?style=for-the-badge)
@@ -10,6 +10,7 @@
 
 ![.NET](https://img.shields.io/badge/.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
@@ -18,7 +19,7 @@
 
 ## Contexto Acadêmico
 
-O **Vitalitas** é desenvolvido no âmbito da disciplina de **Projeto Integrador** dos cursos de Ciência da Computação e Sistemas de Informação do **Centro Universitário de Brasília (UniCEUB)**.
+O **Vitalitas** é desenvolvido no âmbito da disciplina de **Projeto Integrador** do curso de Ciência da Computação do **Centro Universitário de Brasília (UniCEUB)**.
 
 Esta iniciativa integra a proposta pedagógica da instituição, simulando um ambiente real de desenvolvimento de software com as seguintes características:
 
@@ -45,7 +46,7 @@ A entrega de valor do projeto baseia-se em quatro pilares:
 1.  **Centralização:** Dados de alunos, contratos, treinos e avaliações em um único lugar.
 2.  **Eficiência:** Automação de tarefas repetitivas e controle de acesso hierárquico.
 3.  **Confiabilidade:** Segurança da informação e integridade dos dados de saúde.
-4.  **Escalabilidade:** Arquitetura em nuvem preparada para crescimento e futuras integrações mobile.
+4.  **Escalabilidade:** Arquitetura em nuvem preparada para crescimento, com uma API robusta servindo simultaneamente o sistema web de gestão e o aplicativo mobile dos alunos.
 
 ## Escopo do Projeto (MVP)
 
@@ -71,9 +72,9 @@ O sistema cobre os fluxos críticos de operação:
     * Histórico de evolução e comparação entre fichas anteriores.
     * Agendamento de avaliações físicas via calendário.
 
-* **Portais Específicos**
-    * **Portal do Professor:** Gestão de alunos vinculados e prescrição de treinos.
-    * **Portal do Aluno:** Visualização da ficha atual, agenda e dados cadastrais.
+* **Plataformas de Acesso**
+    * **Portal Web (Gestão e Professores):** Administração da academia, gestão de alunos vinculados e prescrição detalhada de treinos.
+    * **App do Aluno (Mobile):** Aplicativo nativo dedicado para visualização da ficha de treinos em tempo real, acompanhamento de evolução, agenda e dados cadastrais.
 
 ### Funcionalidades Futuras (V2)
 
@@ -100,6 +101,16 @@ Responsável pela experiência do usuário, construído com foco em produtividad
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 
+### Mobile (App do Aluno)
+Aplicativo nativo construído para oferecer uma experiência fluida aos alunos durante os treinos, consumindo a mesma API do sistema web.
+
+* **Stack:** React Native, TypeScript.
+* **Bibliotecas:** Axios, React Navigation, JWT-decode.
+* **Repositório:** [vitalita/vitalitas-frontend](https://github.com/VitalitasPJT/vitalitas-frontend-app)
+
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
+
 ### Backend (API & Dados)
 Responsável pelas regras de negócio, segurança e persistência dos dados .
 
@@ -122,7 +133,7 @@ A equipe do projeto **Vitalitas** possui papéis bem definidos para garantir a c
 * **Sanderson de Oliveira Machado** - *Gerente de Projeto / P.O. / Tech Lead*
     * **Atribuições:** Gerenciamento de escopo e cronograma, definição do backlog (Product Owner) e liderança da arquitetura Backend.
     * 📧 [sanderson.oliveira@sempreceub.com](mailto:sanderson.oliveira@sempreceub.com)
-    * [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](LINK_DO_LINKEDIN) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](LINK_DO_GITHUB)
+    * [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sandersonnexum) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/sandersonnexum)
 
 * **Giovanna Couto Lacerda** - *Scrum Master / Analista de Requisitos*
     * **Atribuições:** Facilitação das cerimônias ágeis, remoção de impedimentos e documentação detalhada dos requisitos.
@@ -130,26 +141,26 @@ A equipe do projeto **Vitalitas** possui papéis bem definidos para garantir a c
     * [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](LINK_DO_LINKEDIN) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](LINK_DO_GITHUB)
 
 ### Frontend & UX
-* **Arthur Guarita Brasil** - *Tech Lead Front-end / UX UI Designer*
+* **Arthur Guarita Brasil** - *Tech Lead Front-end & Mobile / UX UI Designer*
     * **Atribuições:** Prototipação de telas, definição de UX e liderança técnica do desenvolvimento da interface.
     * 📧 [arthur.guarita@sempreceub.com](mailto:arthur.guarita@sempreceub.com)
-    * [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](LINK_DO_LINKEDIN) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](LINK_DO_GITHUB)
+    * [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arthur-guarit%C3%A1-brasil-09384b379/) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/arthurguaritabrasil)
 
 * **Iuri Guimarães Pinheiro** - *Desenvolvedor Front-End*
     * **Atribuições:** Implementação de componentes visuais, integração com a API e manutenção do código cliente.
     * 📧 [iuri.gp@sempreceub.com](mailto:iuri.gp@sempreceub.com)
-    * [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](LINK_DO_LINKEDIN) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](LINK_DO_GITHUB)
+    * [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/iuri-guimar%C3%A3es-pinheiro-97159b310/) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/IuriGP)
 
 ### Backend & Dados
 * **Hugo Ferreira Matos** - *DBA / QA (Quality Assurance)*
     * **Atribuições:** Modelagem de dados (DER-MER), criação de scripts SQL e execução de testes de qualidade para estabilidade do sistema.
     * 📧 [hugo.fmatos@sempreceub.com](mailto:hugo.fmatos@sempreceub.com)
-    * [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](LINK_DO_LINKEDIN) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](LINK_DO_GITHUB)
+    * [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](LINK_DO_LINKEDIN) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/HugoFMat)
 
 * **Pedro Luiz Souza de Abreu** - *Desenvolvedor Back-end*
     * **Atribuições:** Desenvolvimento de APIs e serviços, implementação de regras de negócio e integração com banco de dados.
     * 📧 [pedro.la@sempreceub.com](mailto:pedro.la@sempreceub.com)
-    * [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](LINK_DO_LINKEDIN) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](LINK_DO_GITHUB)
+    * [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pedro-luiz-abreu-90a849355/) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/Pedrolsza)
 
 ## Licença
 
