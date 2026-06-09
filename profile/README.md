@@ -178,7 +178,7 @@ A equipe do projeto **Vitalitas** possui papéis bem definidos para garantir a c
 * **Hugo Ferreira Matos** - *DBA / QA (Quality Assurance)*
     * **Atribuições:** Modelagem de dados (DER-MER), criação de scripts SQL e execução de testes de qualidade para estabilidade do sistema.
     * 📧 [hugo.fmatos@sempreceub.com](mailto:hugo.fmatos@sempreceub.com)
-    *  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hugo-ferreira-matos-265b0426b?utm_source=share_via&utm_content=profile&utm_medium=member_android) ![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/HugoFMat)
+    *  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hugo-ferreira-matos-265b0426b?utm_source=share_via&utm_content=profile&utm_medium=member_android) .[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/HugoFMat)
 
 * **Pedro Luiz Souza de Abreu** - *Desenvolvedor Back-end*
     * **Atribuições:** Desenvolvimento de APIs e serviços, implementação de regras de negócio e integração com banco de dados.
