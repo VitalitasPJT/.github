@@ -95,6 +95,7 @@ Responsável pela experiência do usuário, construído com foco em produtividad
 * **Stack:** React, TypeScript, Bootstrap, Vite.
 * **Bibliotecas:** Axios, React Router DOM, JWT-decode.
 * **Repositório:** [vitalita/vitalitas-frontend](https://github.com/VitalitasPJT/vitalitas-frontend-app)
+* * **Link para Figma com telas de exemplo:** ()
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
@@ -125,6 +126,24 @@ Responsável pelas regras de negócio, segurança e persistência dos dados .
 ![Azure](https://img.shields.io/badge/Azure-0089D6?style=flat-square&logo=microsoft-azure&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-Secure-000000?style=flat-square&logo=json-web-tokens&logoColor=white)
 
+### Arquitetura de pastas no Github
+
+VitalitasPJT/
+├─-	vitalitas-frontend 	# Códigos frontend do projeto 
+│   ├── .expo
+│   ├── apps		# Códigos fonte do projeto
+│   │      ├── mobile
+│   │      ├── web
+│   ├── docs
+│   └── README.md
+├──	vitalitas-backend	# Códigos backend do projeto
+│   ├── src	# Código fonte backend
+│   └── Readme.md
+├──	evidências		# Prints/vídeos e evidências de desenvolvimento
+│   ├──
+├──	.github 		# Read.me do repositório principal
+│   ├── Read.me
+
 ## Equipe de Desenvolvimento
 
 A equipe do projeto **Vitalitas** possui papéis bem definidos para garantir a cobertura de todas as áreas da Engenharia de Software:
@@ -138,7 +157,7 @@ A equipe do projeto **Vitalitas** possui papéis bem definidos para garantir a c
 * **Giovanna Couto Lacerda** - *Scrum Master / Analista de Requisitos*
     * **Atribuições:** Facilitação das cerimônias ágeis, remoção de impedimentos e documentação detalhada dos requisitos.
     * 📧 [giovanna.couto@sempreceub.com](mailto:giovanna.couto@sempreceub.com)
-    * [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](LINK_DO_LINKEDIN) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](LINK_DO_GITHUB)
+      <!-- * [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](LINK_DO_LINKEDIN) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](LINK_DO_GITHUB) -->
 
 ### Frontend & UX
 * **Arthur Guarita Brasil** - *Tech Lead Front-end & Mobile / UX UI Designer*
@@ -155,7 +174,8 @@ A equipe do projeto **Vitalitas** possui papéis bem definidos para garantir a c
 * **Hugo Ferreira Matos** - *DBA / QA (Quality Assurance)*
     * **Atribuições:** Modelagem de dados (DER-MER), criação de scripts SQL e execução de testes de qualidade para estabilidade do sistema.
     * 📧 [hugo.fmatos@sempreceub.com](mailto:hugo.fmatos@sempreceub.com)
-    * [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](LINK_DO_LINKEDIN) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/HugoFMat)
+      <!-- [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](LINK_DO_LINKEDIN) -->
+    *  [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/HugoFMat)
 
 * **Pedro Luiz Souza de Abreu** - *Desenvolvedor Back-end*
     * **Atribuições:** Desenvolvimento de APIs e serviços, implementação de regras de negócio e integração com banco de dados.
@@ -164,6 +184,6 @@ A equipe do projeto **Vitalitas** possui papéis bem definidos para garantir a c
 
 ## Licença
 
-Este projeto foi desenvolvido exclusivamente para fins acadêmicos na disciplina de **Projeto Integrador** do **Centro Universitário de Brasília (UniCEUB)**.
+Este projeto está sendo desenvolvido exclusivamente para fins acadêmicos na disciplina de Projeto Integrador do Centro Universitário de Brasília (UniCEUB) e foi atualizado completamente no 7º semestre (09 de junho 2026).
 
-Copyright © 2026 **Vitalitas**. Todos os direitos reservados.
+Copyright © 2026 Vitalitas. Todos os direitos reservados.
