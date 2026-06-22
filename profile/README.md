@@ -17,6 +17,14 @@
 
 </div>
 
+## Demo
+
+<div align="center">
+
+<video src="media/demo-vitalitas.mp4" controls width="80%"></video>
+
+</div>
+
 ## Contexto Acadêmico
 
 O **Vitalitas** é desenvolvido no âmbito da disciplina de **Projeto Integrador** do curso de Ciência da Computação do **Centro Universitário de Brasília (UniCEUB)**.
@@ -38,6 +46,9 @@ Muitas academias ainda realizam a gestão de alunos, treinos e avaliações fís
 * **Retrabalho operacional** e baixa eficiência administrativa.
 * **Inconsistência de dados**, dificultando a tomada de decisão.
 * **Experiência limitada** para o aluno, sem acompanhamento digital de sua evolução.
+
+> Para uma visão estruturada do problema e solução, acesse o slide 5W2H:
+> [![5W2H - Contextualização do Problema](https://img.shields.io/badge/📄_Slide_5W2H-Ver_Documento-informational?style=for-the-badge)](media/5w2h-vitalitas.pdf)
 
 ### A Solução Vitalitas
 O **Vitalitas** propõe uma plataforma web unificada que centraliza as informações operacionais, administrativas e técnicas da academia.
@@ -144,6 +155,9 @@ VitalitasPJT/
 │   └── README.md
 ├── evidencias/              # Prints, vídeos e evidências de desenvolvimento
 ├── .github/
+│   ├── profile/
+│   │   ├── media/               # Vídeo demo e slides do projeto
+│   │   └── README.md
 │   └── README.md
 └── README.md
 ```
