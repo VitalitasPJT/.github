@@ -1,4 +1,9 @@
 # Vitalitas
+<div align="center">
+
+[![Assista ao Demo do Vitalitas](media/banner-vitalitas.png)]
+
+</div>
 
 > **Plataforma Multiplataforma (Web e Mobile) Integrada para Revolucionar a Gestão e a Experiência em Academias.**
 
@@ -21,7 +26,7 @@
 
 <div align="center">
 
-[![▶ Assistir Demo do Vitalitas](https://img.shields.io/badge/▶_Assistir_Demo-Vitalitas-FF0000?style=for-the-badge&logo=files&logoColor=white)](media/demo-vitalitas.mp4)
+[![Assista ao Demo do Vitalitas](media/thumb-vitalitas.png)](https://www.youtube.com/watch?v=cthOILkzPQ0)
 
 </div>
 
@@ -50,37 +55,35 @@ A entrega de valor do projeto baseia-se em quatro pilares:
 O escopo atual foca no **Produto Mínimo Viável (MVP)**.
 O objetivo é entregar um conjunto funcional que permita a operação básica da academia, validando a solução em ambiente real.
 
-### Funcionalidades Previstas
+### MVP — Fase 1 (em construção)
 
-O sistema cobre os fluxos críticos de operação:
+| # | Funcionalidade | Status |
+|---|---|---|
+| 01 | Autenticação e controle de acesso | ✅ Entregue (Sprint 2) |
+| 02 | Gestão de usuários (wizard por perfil, hierarquia, soft delete) | ✅ Entregue (Sprint 2) |
+| 03 | Prontuário médico em dois níveis (ficha base + PAR-Q, FANTASTIC, Borg, EVA) | 🔧 Em desenvolvimento |
+| 04 | Perfil profissional do Instrutor (CREF, especialidades, formação, bio, foto) | 🔧 Em desenvolvimento |
+| 05 | Prescrição de fichas de treino (exercício, séries, reps, carga kg, descanso seg) | 🔧 Em desenvolvimento |
+| 06 | Confirmação de treino + feedback de sessão pelo Aluno | 🔧 Em desenvolvimento |
+| 07 | Portal do Aluno — app mobile (ficha ativa, histórico, prontuário, dados pessoais) | 🔧 Em desenvolvimento |
+| 08 | Avaliação física (Pollock 7 dobras, %G, circunferências, gráfico de evolução) | 🔧 Em desenvolvimento |
+| 09 | Agendamento de avaliações físicas (solicitação pelo Aluno + confirmação pelo Instrutor) | 🔧 Em desenvolvimento |
+| 10 | Dashboard do Gestor — BI básico (ativos, inadimplentes, frequência, exportação) | 🔧 Em desenvolvimento |
+| 11 | Logs de atividade e auditoria (12 meses, acesso por Gestor e Administrador) | 🔧 Em desenvolvimento |
 
-**Autenticação e Segurança**
-- [x] Login seguro via JWT (JSON Web Tokens).
-- [ ] Controle de Acesso Baseado em Função (RBAC): Perfis distintos para **Administrador**, **Professor** e **Aluno**.
-- [ ] Fluxo de primeiro acesso com alteração obrigatória de senha.
+### Backlog Pós-MVP — Fase 2 (sprints a definir)
 
-**Gestão Administrativa (Backoffice)**
-- [x] Cadastro centralizado de usuários (Staff e Alunos).
-- [ ] Regras de negócio hierárquicas (ex: restrições de criação por perfil).
-- [ ] **Gestão de Saúde:** Criação e monitoramento obrigatório de fichas médicas.
+| # | Grupo | Funcionalidade |
+|---|---|---|
+| 12 | Comunicação | Contratos em PDF (upload por Gestor/Admin, download pelo Aluno) |
+| 13 | Comunicação | Vídeos de comunicação interna (upload e visualização por todos os perfis) |
+| 14 | Financeiro | Gestão financeira da academia via API de terceiros |
+| 15 | Financeiro | Visualização de mensalidade pelo Aluno no app |
+| 16 | Inteligência Artificial | IA para interpretação de resultados de avaliações físicas |
+| 17 | Gamificação | Sistema de XP por frequência + ranking interno por academia |
+| 18 | Licenciamento | Landing page e vitrine comercial para contratação autônoma de licenças |
 
-**Gestão Técnica e Treinos**
-- [ ] Criação e edição de fichas de treino personalizadas.
-- [ ] Histórico de evolução e comparação entre fichas anteriores.
-- [ ] Agendamento de avaliações físicas via calendário.
-
-**Plataformas de Acesso**
-- [ ] **Portal Web (Gestão e Professores):** Administração da academia, gestão de alunos vinculados e prescrição detalhada de treinos.
-- [ ] **App do Aluno (Mobile):** Aplicativo nativo dedicado para visualização da ficha de treinos em tempo real, acompanhamento de evolução, agenda e dados cadastrais.
-
-### Funcionalidades Futuras (V2)
-
-Para garantir a entrega dentro do prazo acadêmico, os seguintes itens estão planejados para versões futuras:
-
-* Gamificação e Ranking por XP (Experiência).
-* Integração financeira e pagamentos online.
-* Funcionalidades avançadas de Inteligência Artificial para análise de treinos.
-* Cadastro complexo de bioimpedância.
+**Resumo:** 11 funcionalidades no MVP (2 entregues, 9 em desenvolvimento) + 7 no backlog pós-MVP = **18 funcionalidades no total**.
 
 ## Contexto Acadêmico
 
