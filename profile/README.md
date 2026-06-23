@@ -1,7 +1,7 @@
 # Vitalitas
 <div align="center">
 
-![Assista ao Demo do Vitalitas](media/banner%20pequeno%20vitalitas.png)
+![](media/banner-vitalitas-vitalitas.png)
 
 </div>
 
@@ -38,9 +38,6 @@ Muitas academias ainda realizam a gestão de alunos, treinos e avaliações fís
 * **Inconsistência de dados**, dificultando a tomada de decisão.
 * **Experiência limitada** para o aluno, sem acompanhamento digital de sua evolução.
 
-> Para uma visão estruturada do problema e solução, acesse o slide 5W2H:
-> [![5W2H - Contextualização do Problema](https://img.shields.io/badge/📄_Slide_5W2H-Ver_Documento-informational?style=for-the-badge)](media/5w2h-vitalitas.pdf)
-
 ### A Solução Vitalitas
 O **Vitalitas** propõe uma plataforma multiplataforma (web e mobile) que centraliza as informações operacionais, administrativas e técnicas da academia.
 
@@ -49,6 +46,10 @@ A entrega de valor do projeto baseia-se em quatro pilares:
 2.  **Eficiência:** Automação de tarefas repetitivas e controle de acesso hierárquico.
 3.  **Confiabilidade:** Segurança da informação e integridade dos dados de saúde.
 4.  **Escalabilidade:** Arquitetura em nuvem preparada para crescimento, com uma API robusta servindo simultaneamente o portal web de gestão e o aplicativo mobile dos alunos.
+
+> Para uma visão estruturada do problema e solução, acesse o slide 5W2H:
+> [![5W2H - Contextualização do Problema](https://img.shields.io/badge/📄_Slide_5W2H-Ver_Documento-informational?style=for-the-badge)](media/5w2h-vitalitas.pdf)
+
 
 ## Escopo do Projeto (MVP)
 
@@ -131,8 +132,6 @@ Responsável pelas regras de negócio, segurança e persistência dos dados.
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0089D6?style=flat-square&logo=microsoft-azure&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-Secure-000000?style=flat-square&logo=json-web-tokens&logoColor=white)
-
-### Arquitetura de pastas no Github
 
 ## Estrutura do Projeto
 
