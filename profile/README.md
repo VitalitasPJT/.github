@@ -30,6 +30,12 @@
 
 </div>
 
+<div align="center">
+
+[![Mapa Mental do Projeto](media/banner-mapa-mental.png)](media/mapa-mental-vitalitas.pdf)
+
+</div>
+
 ## Visão Geral do Projeto
 
 ### O Problema
@@ -47,9 +53,11 @@ A entrega de valor do projeto baseia-se em quatro pilares:
 3.  **Confiabilidade:** Segurança da informação e integridade dos dados de saúde.
 4.  **Escalabilidade:** Arquitetura em nuvem preparada para crescimento, com uma API robusta servindo simultaneamente o portal web de gestão e o aplicativo mobile dos alunos.
 
-> Para uma visão estruturada do problema e solução, acesse o slide 5W2H:
-> [![5W2H - Contextualização do Problema](https://img.shields.io/badge/📄_Slide_5W2H-Ver_Documento-informational?style=for-the-badge)](media/5w2h-vitalitas.pdf)
+<div align="center">
 
+[![5W2H - Contextualização do Problema](media/banner-5w2h.png)](media/5w2h-vitalitas.pdf)
+
+</div>
 
 ## Escopo do Projeto (MVP)
 
@@ -111,7 +119,11 @@ Responsável pela experiência do usuário em ambas as plataformas — portal we
 * **Stack Mobile:** React Native, TypeScript.
 * **Bibliotecas:** Axios, React Router DOM, React Navigation, JWT-decode.
 * **Repositório:** [VitalitasPJT/vitalitas-frontend-app](https://github.com/VitalitasPJT/vitalitas-frontend-app)
-* **Link para Figma com telas de exemplo:** ()
+<div align="center">
+
+[![Protótipo no Figma](media/banner-figma.png)](LINK_DO_FIGMA_AQUI)
+
+</div>
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
