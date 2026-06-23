@@ -121,7 +121,7 @@ Responsável pela experiência do usuário em ambas as plataformas — portal we
 * **Repositório:** [VitalitasPJT/vitalitas-frontend-app](https://github.com/VitalitasPJT/vitalitas-frontend-app)
 <div align="center">
 
-[![Protótipo no Figma](media/banner-figma.png)](LINK_DO_FIGMA_AQUI)
+[![Protótipo no Figma](media/banner-figma.png)](https://www.figma.com/proto/0NrgmDD9v0esjj0oIQD4KC/Website---Vitalitas?node-id=2595-4285&p=f&t=LYnrdF1CUqhGJCjN-1&scaling=scale-down&content-scaling=fixed&page-id=1741%3A68&starting-point-node-id=2595%3A4285&show-proto-sidebar=1)
 
 </div>
 
