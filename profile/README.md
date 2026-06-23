@@ -1,7 +1,7 @@
 # Vitalitas
 <div align="center">
 
-![](media/banner-vitalitas-vitalitas.png)
+![](media/banner-pequena-vitalitas.png)
 
 </div>
 
@@ -26,7 +26,7 @@
 
 <div align="center">
 
-[![Assista ao Demo do Vitalitas](media/DEMO.png)](https://www.youtube.com/watch?v=cthOILkzPQ0)
+[![Assista ao Demo do Vitalitas](media/thumb-demo-vitalitas.png)](https://www.youtube.com/watch?v=cthOILkzPQ0)
 
 </div>
 
